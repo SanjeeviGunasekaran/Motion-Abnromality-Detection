@@ -4,9 +4,12 @@ The Regional Wall Motion Abnormality (RWMA) is the occurrence of abnormal or abs
 Conventional assessment of RWMA is based on visual interpretation from the echocardiogram videos.
 We developed a novel deep learning architecture EC3D-Net (Echo-Cardio 3D Net), which captures the temporal information for identifying regional wall motion abnormality from Echocardiogram.
 EC3D-Net achieves both an overall F1-Score and an Area Under Curve (AUC) score of 0.82.
+
 This study used the HMC-QU dataset. Original dataset available at https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset
+Lower fps data available at https://github.com/SanjeeviGunasekaran/Regional-Wall-Motion-Abnormality-Detection/tree/main/Data
 
-
+The overall process
 ![plot](https://github.com/SanjeeviGunasekaran/Regional-Wall-Motion-Abnormality-Detection/blob/main/overall%20ec3d-net.jpg)
 
+The EC3D-Net layer architecture 
 ![plot](https://github.com/SanjeeviGunasekaran/Regional-Wall-Motion-Abnormality-Detection/blob/main/new%20cnn3.jpg)
